@@ -3,8 +3,10 @@ const axios = require('axios');
 const app = express();
 
 // Configuration - CHANGE THESE IF NEEDED
-const FIREBASE_HOST = 'respondr-da5cb-default-rtdb.firebaseio.com/';
-const FIREBASE_AUTH = '2i7HR4tO28CVITDhBZNki02gkFZcF3fAXeRtMwgI';
+//const FIREBASE_HOST = 'respondr-da5cb-default-rtdb.firebaseio.com/';
+const FIREBASE_HOST = 'ws-data-6f163-default-rtdb.firebaseio.com/'
+//const FIREBASE_AUTH = '2i7HR4tO28CVITDhBZNki02gkFZcF3fAXeRtMwgI';
+const FIREBASE_AUTH = 'ZkkNgbFTLZnvDg6z651x4GiBl5qD41g0CUeoFHrR';
 const PORT = process.env.PORT || 3000;
 
 // Middleware
